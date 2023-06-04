@@ -1,0 +1,60 @@
+.movieticketform {
+  height: 60vh;
+}
+.form-div {
+  margin: auto;
+  height: 20rem;
+  width: 20rem;
+  margin-top: 15rem;
+  text-align: center;
+  background-color: black;
+  border-radius: 2%;
+}
+.movie-form {
+  padding: 1rem;
+}
+input {
+  width: 12rem;
+  height: 2.1rem;
+  border-radius: 0.9rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+label {
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+.form-div h2 {
+  padding: 2rem 1rem 1rem 1rem;
+  color: red;
+}
+
+.btn {
+  margin: 0px 20px;
+  background-color: white;
+  color: black;
+  padding: 0.7rem;
+  border-style: none;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+@media (min-width: 30em) and (max-width: 50em) {
+  .form-div h2 {
+    padding: 2rem 1rem 1rem 1rem;
+    color: red;
+    font-size: 1.2rem;
+  }
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 3rem;
+    padding: 10px;
+    border: 2px black;
+    border-radius: 5px;
+    margin: 11px auto;
+    font-size: 25px;
+  }
+}

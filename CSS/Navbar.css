@@ -1,0 +1,49 @@
+.navbar {
+  background-color: black;
+  padding: 1rem;
+}
+li {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  left: 20%;
+}
+.logo {
+  font-size: 3rem;
+  font-weight: 800;
+  position: relative;
+  left: 2rem;
+  color: red;
+}
+.btn-ticket {
+  position: relative;
+  left: 70rem;
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  border: 1rem;
+  border-style: none;
+  border-radius: 1rem;
+}
+.btn-ticket :hover {
+  background-color: rgb(119, 114, 114);
+}
+@media (min-width: 30em) and (max-width: 50em) {
+  .logo {
+    font-size: 2rem;
+    font-weight: 800;
+    position: relative;
+    left: 2rem;
+    color: red;
+  }
+  .btn-ticket {
+    position: relative;
+    left: 5rem;
+    padding: 0.9rem;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    border: 1rem;
+    border-style: none;
+    border-radius: 1rem;
+  }
+}
